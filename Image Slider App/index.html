@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="gallery">
+            <img src="https://picsum.photos/id/400/1000/500" class="slide">
+            <img src="https://picsum.photos/id/401/1000/500" class="slide">
+            <img src="https://picsum.photos/id/402/1000/500" class="slide">
+            <img src="https://picsum.photos/id/403/1000/500" class="slide">
+        </div>
+    
+        <div class="buttons">
+            <button onclick="goPrev()">
+                <img src="images/back.png" alt="">
+            </button>
+            <button onclick="goNext()">
+                <img src="images/next.png" alt="">
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
